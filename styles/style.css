@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  /* color: whitesmoke; */
+  font-family: 'Poppins',sans-serif;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 64px;
+  color: black;
+  font-weight: 500;
+}
+h2{
+  font-size: 46px;
+  line-height: 54px;
+  color: black;
+  font-weight: 400;
+}
+h4{
+  font-size: 20px;
+  color: black;
+}
+h6{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+p{
+  font-size: 16px;
+  margin: 15px 0 20px 0;
+  color: black;
+}
+.section-p1{
+  padding: 40px 80px;
+}
+.section-m1{
+  margin: 40px 0;
+}
+body{
+  width: 100%;
+}
+
+/* header */
+
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #333333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.40);
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* z-index: 999; */
+
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 1.4rem; */
+}
+#navbar li{
+  padding:0 25px ;
+  position: relative;
+}
+#navbar li a{
+text-decoration: none;
+font-size: 15px;
+font-weight: 500;
+color: whitesmoke;
+transition: .5s ease;
+/* color: whitesmoke;
+display: block;
+border-radius: 25px;
+margin: 0 10px;
+padding: 10px 25px; */
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+color: white;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+content:"" ;
+width: 56%;
+height: 2px;
+background: whitesmoke;
+position: absolute;
+bottom: -4px;
+left: 20px;
+}
+
+/* Landing Page */
+#hero{
+  background-image: url(https://i.postimg.cc/4NZ54SSy/fashion-girl-model-wallpaper-59926-61719-hd-wallpapers.jpg);
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right 0;
+  background-size: cover;
+  padding: 0 10rem ;
+  padding-bottom:10rem ;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  letter-spacing: 10px;
+}
+#hero h4{
+padding-bottom: 1rem ;
+}
+#hero h1{
+  color: #EB5E28;
+  }
+
+  #hero button {
+  letter-spacing: 3px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+  box-shadow: 4px 4px 10px #CCC5B9, -4px -4px 10px#FFFCF2 ;
+  cursor: pointer;
+}
+
+ #hero button :hover{
+    box-shadow: -4px -4px 10px #CCC5B9, 4px 4px 10px#FFFCF2 ;
+  } 
+
+  /* category */
+
+  .category-title{
+    margin-top: 20px ;
+    margin-bottom: 90px;
+  }
+  .category-title h2{
+    text-align: center;
+  }
+  .category .category-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .category .category-box .box{
+    margin: 30px 20px;
+  }
+  .category .category-box .box img{
+    width: 600px;
+    border-radius: 5px;
+    height: 328px;
+  }
+
+  .category .category-box .box-content{
+    position: absolute;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: 100px;
+  }
+
+  .category .category-box .box-content h3{
+    color: #EB5E28;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  .category .category-box .box-content label{
+    display: block;
+    font-size: 27px;
+    color:#EB5E28 ;
+  }
+  .category .category-box .box-content a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 25px;
+    background:#FFFCF2;
+    transition: all .19s ease-in;
+    color: black;
+  }
+  .category .category-box .box-content a:hover{
+    background: silver;
+  }
+  .category .category-box .box-content.b2{
+    margin: 15px;
+    text-align: left;
+    margin-top:100px ;
+  }
+  
