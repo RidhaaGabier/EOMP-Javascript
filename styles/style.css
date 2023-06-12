@@ -58,6 +58,7 @@ body{
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 50;
   /* z-index: 999; */
 
 }
@@ -131,7 +132,7 @@ padding-bottom: 1rem ;
   cursor: pointer;
 }
 
- #hero button :hover{
+ #hero button:hover{
     box-shadow: -4px -4px 10px #CCC5B9, 4px 4px 10px#FFFCF2 ;
   } 
 
@@ -197,3 +198,26 @@ padding-bottom: 1rem ;
     margin-top:100px ;
   }
   
+/* banner section */
+.banner_section{
+  overflow: hidden;
+}
+
+
+
+/* Image styling for contact page */
+
+.pfp {
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  border-color: black;
+}
+.btn{
+  box-shadow: 4px 4px 10px #CCC5B9, -4px -4px 10px#FFFCF2 !important;
+background-color: #EB5E28 !important;
+}
+#contact-box{
+  margin-top: 12rem !important;
+}
