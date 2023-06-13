@@ -57,6 +57,7 @@ let products = [
         price: "R7500",
         button:"Buy now"
       },
+      
   
   ];
 
