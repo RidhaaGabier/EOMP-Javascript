@@ -1,83 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
   /* color: whitesmoke; */
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-h1{
+h1 {
   font-size: 50px;
   line-height: 64px;
   color: black;
   font-weight: 500;
 }
-h2{
+h2 {
   font-size: 46px;
   line-height: 54px;
   color: black;
   font-weight: 400;
 }
-h4{
+h4 {
   font-size: 20px;
   color: black;
 }
-h6{
+h6 {
   font-size: 16px;
   font-weight: 700;
 }
 
-p{
+p {
   font-size: 16px;
   margin: 15px 0 20px 0;
   color: black;
 }
-.section-p1{
+.section-p1 {
   padding: 40px 80px;
 }
-.section-m1{
+.section-m1 {
   margin: 40px 0;
 }
-body{
+body {
   width: 100%;
 }
 
 /* header */
 
-#header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 80px;
+nav {
+  height: 70px;
   background: #333333;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.40);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   position: sticky;
-  top: 0;
-  left: 0;
-  /* z-index: 999; */
-
+  
 }
-#navbar{
+#navbar {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 1.4rem; */
+
 }
-#navbar li{
-  padding:0 25px ;
+#navbar li {
+  padding: 0 25px;
   position: relative;
 }
-#navbar li a{
-text-decoration: none;
-font-size: 15px;
-font-weight: 500;
-color: whitesmoke;
-transition: .5s ease;
-/* color: whitesmoke;
+#navbar li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: whitesmoke;
+  transition: 0.5s ease;
+  /* color: whitesmoke;
 display: block;
 border-radius: 25px;
 margin: 0 10px;
@@ -85,115 +79,267 @@ padding: 10px 25px; */
 }
 
 #navbar li a:hover,
-#navbar li a.active{
-color: white;
+#navbar li a.active {
+  color: white;
 }
 #navbar li a.active::after,
-#navbar li a:hover::after{
-content:"" ;
-width: 56%;
-height: 2px;
-background: whitesmoke;
-position: absolute;
-bottom: -4px;
-left: 20px;
+#navbar li a:hover::after {
+  content: "";
+  width: 56%;
+  height: 2px;
+  background: whitesmoke;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
 }
 
 /* Landing Page */
-#hero{
+#hero {
   background-image: url(https://i.postimg.cc/4NZ54SSy/fashion-girl-model-wallpaper-59926-61719-hd-wallpapers.jpg);
   height: 90vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: right 0;
   background-size: cover;
-  padding: 0 10rem ;
-  padding-bottom:10rem ;
+  padding: 0 10rem;
+  padding-bottom: 10rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   letter-spacing: 10px;
 }
-#hero h4{
-padding-bottom: 1rem ;
+#hero h4 {
+  padding-bottom: 1rem;
 }
-#hero h1{
-  color: #EB5E28;
-  }
+#hero h1 {
+  color: #eb5e28;
+}
 
-  #hero button {
+#hero button {
   letter-spacing: 3px;
   font-size: 14px;
   border-radius: 5px;
-  transition: all .2s ease-in-out;
-  box-shadow: 4px 4px 10px #CCC5B9, -4px -4px 10px#FFFCF2 ;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 4px 4px 10px #ccc5b9, -4px -4px 10px#FFFCF2;
   cursor: pointer;
 }
 
- #hero button :hover{
-    box-shadow: -4px -4px 10px #CCC5B9, 4px 4px 10px#FFFCF2 ;
-  } 
+#hero button:hover {
+  box-shadow: -4px -4px 10px #ccc5b9, 4px 4px 10px#FFFCF2;
+}
 
-  /* category */
+/* category */
 
-  .category-title{
-    margin-top: 20px ;
-    margin-bottom: 90px;
-  }
-  .category-title h2{
-    text-align: center;
-  }
-  .category .category-box{
+.category-title {
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.category-title h2 {
+  text-align: center;
+}
+.category .category-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category .category-box .box {
+  margin: 30px 20px;
+}
+.category .category-box .box img {
+  width: 600px;
+  border-radius: 5px;
+  height: 328px;
+}
+
+.category .category-box .box-content {
+  position: absolute;
+  z-index: 1;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+.category .category-box .box-content h3 {
+  color: #eb5e28;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.category .category-box .box-content label {
+  display: block;
+  font-size: 27px;
+  color: #eb5e28;
+}
+.category .category-box .box-content a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 25px;
+  font-size: 14px;
+  border-radius: 25px;
+  background: #fffcf2;
+  transition: all 0.19s ease-in;
+  color: black;
+}
+.category .category-box .box-content a:hover {
+  background: silver;
+}
+.category .category-box .box-content.b2 {
+  margin: 15px;
+  text-align: left;
+  margin-top: 100px;
+}
+
+/* banner section */
+.banner_section {
+  overflow: hidden;
+}
+
+/* Image styling for contact page */
+
+.pfp {
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  border-color: black;
+}
+.bttn{
+  width: 90% !important;
+
+}
+.submitting {
+  box-shadow: 0 0 15px#FFFCF2 !important;
+  background-color: #eb5e28 !important;
+  width: 100% !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+.bttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-ting {
+  width: 90%;
+}
+
+.second {
+  margin-bottom: 5rem;
+  background-color: #1e1e1e !important;
+  color: white !important;
+}
+
+form h2{
+  background-color: #1e1e1e !important;
+  color: white !important;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact-box {
+  margin-top: -0.9rem !important;
+}
+
+.bot {
+  padding-top: 1rem;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.bot p {
+  color: white;
+} 
+/* landing page preview cards */
+ .cards {
+  border:2px solid black;
+} 
+/* end */
+
+ .hijab img {
+  width: 18rem;
+  height: 22rem;
+}
+.card-text {
+  margin-left: 20px;
+}
+.card-title {
+  margin-left: 10px;
+} 
+ .btn-contact{
+  box-shadow: 4px 4px 10px #CCC5B9, -4px -4px 10px#FFFCF2 !important;
+  padding: 3px;
+
+  background-color: #EB5E28 !important;} */
+/* class="card p-5" */
+.submit-btn{
+    width: 100% !important;
+    position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+    margin-left: 0 !important;
+  } 
+.logo-contact {
+  width: 55%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+   border-radius: 1000px; 
+   border-radius: 50% 46% / 38% 40%;
+  height: 220px;
+  position: relative;
+  top: 70px;
+  left: 25%;
+} 
+ #contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  /* border: 3px solid black; */
+ }
 
-  .category .category-box .box{
-    margin: 30px 20px;
-  }
-  .category .category-box .box img{
-    width: 600px;
-    border-radius: 5px;
-    height: 328px;
-  }
+.hijab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding-top: 1rem;
+} 
 
-  .category .category-box .box-content{
-    position: absolute;
-    z-index: 1;
-    margin-left: 30px;
-    margin-top: 100px;
-  }
+ #contactPage {
+  background-image: url("https://i.postimg.cc/pV9bHMnx/unsplash-ta-O2f-C7sx-DU.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+} 
 
-  .category .category-box .box-content h3{
-    color: #EB5E28;
-    font-size: 30px;
-    margin-top: 40px;
-  }
+ #main-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
 
-  .category .category-box .box-content label{
-    display: block;
-    font-size: 27px;
-    color:#EB5E28 ;
-  }
-  .category .category-box .box-content a{
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 25px;
-    font-size: 14px;
-    border-radius: 25px;
-    background:#FFFCF2;
-    transition: all .19s ease-in;
-    color: black;
-  }
-  .category .category-box .box-content a:hover{
-    background: silver;
-  }
-  .category .category-box .box-content.b2{
-    margin: 15px;
-    text-align: left;
-    margin-top:100px ;
-  }
-  
+.submitting {
+  box-shadow: 0 0 15px#FFFCF2 !important;
+  background-color: #eb5e28 !important;
+  width: 100% !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+
