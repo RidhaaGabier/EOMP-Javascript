@@ -57,6 +57,27 @@ let products = [
       price: "R7500",
       button:"Buy now"
     },
+    {
+      image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
+      size:  4,
+      desc: "Nike Pastel Sneaker.",
+      price: "R6500",
+      button:"Buy now"
+    },
+    {
+      image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
+      size:  4,
+      desc: "Nike Pastel Sneaker.",
+      price: "R6500",
+      button:"Buy now"
+    },
+    {
+      image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
+      size:  4,
+      desc: "Nike Pastel Sneaker.",
+      price: "R6500",
+      button:"Buy now"
+    },
 
 ];
 
