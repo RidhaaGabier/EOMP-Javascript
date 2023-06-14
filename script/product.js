@@ -2,12 +2,7 @@
 let products = [
    
   {
-<<<<<<< refs/remotes/origin/Productpage
     id: 1,
-=======
-
-    id:   "item-one",
->>>>>>> local
    image: "https://i.postimg.cc/nrzH1kq4/model-card-1.jpg" ,
     size:   3,
     desc: "Crop-T/Denim Rip jeans outfit.",
@@ -15,11 +10,7 @@ let products = [
     button:"Buy now"
   },
   {
-<<<<<<< refs/remotes/origin/Productpage
     id: 2,
-=======
-    id:   "item-two",
->>>>>>> local
     image: "https://i.postimg.cc/Njv3sDLd/model-card-2.jpg" ,
     size:   3,
     desc: "Crop-T/Denim Rip jeans outfit.",
@@ -27,11 +18,7 @@ let products = [
     button:"Buy now"
   },
   {
-<<<<<<< refs/remotes/origin/Productpage
     id: 3,
-=======
-    id:   "item-three",
->>>>>>> local
     image: "https://i.postimg.cc/9FgvT2xN/model-card4.jpg" ,
     size:  3,
     desc: "Crew Neck/Denim jeans outfit.",
@@ -39,11 +26,7 @@ let products = [
     button:"Buy now"
   },
   { 
-<<<<<<< refs/remotes/origin/Productpage
     id: 4,
-=======
-    id:   "item-four",
->>>>>>> local
     image: "https://i.postimg.cc/Zqqgq5zq/soft-boy-3.jpg" ,
     size: 3,
     desc: "Crew Neck Base Ball outfit..",
@@ -51,11 +34,7 @@ let products = [
     button:"Buy now"
   },
   { 
-<<<<<<< refs/remotes/origin/Productpage
     id: 5,
-=======
-    id:   "item-five",
->>>>>>> local
     image: "https://i.postimg.cc/x87j64Gv/soft-boy.jpg" ,
     size: 3,
     desc: "White Burberry's-T/Denim jeans outfit.",
@@ -63,11 +42,7 @@ let products = [
     button:"Buy now"
   },
   { 
-<<<<<<< refs/remotes/origin/Productpage
     id: 6,
-=======
-    id:   "item-six",
->>>>>>> local
     image: "https://i.postimg.cc/j5c4nz60/soft-boy-2.jpg" ,
     size: 3,
     desc: "Cardigan Jersey/Denim jeans outfit.",
@@ -75,11 +50,7 @@ let products = [
     button:"Buy now"
   },
   {
-<<<<<<< refs/remotes/origin/Productpage
     id: 7,
-=======
-    id:   "item-seven",
->>>>>>> local
     image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
     size: 3,
     desc: "LV Crew Neck/Corduroy Pants outfit.",
@@ -87,11 +58,7 @@ let products = [
     button:"Buy now"
   },
   {
-<<<<<<< refs/remotes/origin/Productpage
     id: 8,
-=======
-    id:   "item-eight",
->>>>>>> local
       image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
       size: 3,
       desc: "LV Crew Neck/Corduroy Pants outfit.",
@@ -99,11 +66,7 @@ let products = [
       button:"Buy now"
     },
     {
-<<<<<<< refs/remotes/origin/Productpage
       id: 9,
-=======
-      id:   "item-nine",
->>>>>>> local
       image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
       size:  4,
       desc: "Nike Pastel Sneaker.",
@@ -111,11 +74,7 @@ let products = [
       button:"Buy now"
     },
     {
-<<<<<<< refs/remotes/origin/Productpage
       id: 10,
-=======
-      id:   "item-ten",
->>>>>>> local
       image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
       size:  4,
       desc: "Nike Pastel Sneaker.",
@@ -123,11 +82,7 @@ let products = [
       button:"Buy now"
     },
     {
-<<<<<<< refs/remotes/origin/Productpage
       id: 11,
-=======
-      id:   "item-eleven",
->>>>>>> local
       image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
       size:  4,
       desc: "Nike Pastel Sneaker.",
@@ -185,8 +140,4 @@ function getFromCart(index) {
 // the actual cart function - shows in a modal on the html side, use the add and remove functions in here
 function loadCart() {
   localStorage.setItem("clothes", JSON.stringify(cart));
-<<<<<<< refs/remotes/origin/Productpage
 }
-=======
-}
->>>>>>> local
