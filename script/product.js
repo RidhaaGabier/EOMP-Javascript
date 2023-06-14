@@ -2,11 +2,11 @@
 let products = [
    
   {
-<<<<<<< HEAD
+
     id:   "item-one",
-=======
+
     id: 1,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
    image: "https://i.postimg.cc/nrzH1kq4/model-card-1.jpg" ,
     size:   3,
     desc: "Crop-T/Denim Rip jeans outfit.",
@@ -14,11 +14,10 @@ let products = [
     button:"Buy now"
   },
   {
-<<<<<<< HEAD
-    id:   "item-two",
-=======
+
+
     id: 2,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
     image: "https://i.postimg.cc/Njv3sDLd/model-card-2.jpg" ,
     size:   3,
     desc: "Crop-T/Denim Rip jeans outfit.",
@@ -26,11 +25,9 @@ let products = [
     button:"Buy now"
   },
   {
-<<<<<<< HEAD
-    id:   "item-three",
-=======
+
     id: 3,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
     image: "https://i.postimg.cc/9FgvT2xN/model-card4.jpg" ,
     size:  3,
     desc: "Crew Neck/Denim jeans outfit.",
@@ -38,11 +35,10 @@ let products = [
     button:"Buy now"
   },
   { 
-<<<<<<< HEAD
-    id:   "item-four",
-=======
+
+
     id: 4,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
     image: "https://i.postimg.cc/Zqqgq5zq/soft-boy-3.jpg" ,
     size: 3,
     desc: "Crew Neck Base Ball outfit..",
@@ -50,11 +46,10 @@ let products = [
     button:"Buy now"
   },
   { 
-<<<<<<< HEAD
-    id:   "item-five",
-=======
+
+
     id: 5,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
     image: "https://i.postimg.cc/x87j64Gv/soft-boy.jpg" ,
     size: 3,
     desc: "White Burberry's-T/Denim jeans outfit.",
@@ -62,11 +57,10 @@ let products = [
     button:"Buy now"
   },
   { 
-<<<<<<< HEAD
-    id:   "item-six",
-=======
+
+
     id: 6,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
     image: "https://i.postimg.cc/j5c4nz60/soft-boy-2.jpg" ,
     size: 3,
     desc: "Cardigan Jersey/Denim jeans outfit.",
@@ -74,11 +68,10 @@ let products = [
     button:"Buy now"
   },
   {
-<<<<<<< HEAD
-    id:   "item-seven",
-=======
+
+
     id: 7,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
     image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
     size: 3,
     desc: "LV Crew Neck/Corduroy Pants outfit.",
@@ -86,11 +79,11 @@ let products = [
     button:"Buy now"
   },
   {
-<<<<<<< HEAD
-    id:   "item-eight",
-=======
+
+
+
     id: 8,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
       image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
       size: 3,
       desc: "LV Crew Neck/Corduroy Pants outfit.",
@@ -98,11 +91,11 @@ let products = [
       button:"Buy now"
     },
     {
-<<<<<<< HEAD
+
       id:   "item-nine",
-=======
+
       id: 9,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
       image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
       size:  4,
       desc: "Nike Pastel Sneaker.",
@@ -110,11 +103,11 @@ let products = [
       button:"Buy now"
     },
     {
-<<<<<<< HEAD
-      id:   "item-ten",
-=======
+
+  
+
       id: 10,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
       image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
       size:  4,
       desc: "Nike Pastel Sneaker.",
@@ -122,11 +115,9 @@ let products = [
       button:"Buy now"
     },
     {
-<<<<<<< HEAD
-      id:   "item-eleven",
-=======
+
       id: 11,
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
       image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
       size:  4,
       desc: "Nike Pastel Sneaker.",
@@ -152,10 +143,9 @@ disProducts.innerHTML += `
 </div>`
 });
 
-<<<<<<< HEAD
+
 // cart
 
-=======
 
 
 
@@ -189,4 +179,4 @@ function getFromCart(index) {
 function loadCart() {
   localStorage.setItem("clothes", JSON.stringify(cart));
 }
->>>>>>> cb393b7fc729a5f5f447855075187cf092763189
+
