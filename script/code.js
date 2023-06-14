@@ -79,11 +79,19 @@ products.forEach((product) => {
           <h5 class="card-title">R&G</h5>
           <p class="card-text">${product.desc}</p>
           <p class="card-text">${product.price}</p>
-          <a href="/html/cart.html" class="btn btn-product">Buy Now</a>
+          <button class="btn btn-product" onclick="addToCart(${product.id})">Buy Now</button>
           </div>
       </div>
   </div>`
 });
+
+
+
+
+//added button style and function
+//add delete function on both
+//admin page fix
+
 
 
 
