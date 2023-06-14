@@ -47,12 +47,15 @@ body {
 }
 
 /* header */
+.nav-logo {
+  width: 3rem;
+}
 
 nav {
-  height: 70px;
+   /* height: 70px; */
   background: #333333;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-  position: sticky;
+  padding: 25px !important;
   
 }
 #navbar {
