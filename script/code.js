@@ -18,14 +18,14 @@ let products = [
     {
       image: "https://i.postimg.cc/9FgvT2xN/model-card4.jpg" ,
       size:  3,
-      desc: "Crew Neck/Denim jeans outfit.Bag included.",
+      desc: "Crew Neck/Denim jeans outfit.",
       price: "R4500",
       button:"Buy now"
     },
     { 
       image: "https://i.postimg.cc/Zqqgq5zq/soft-boy-3.jpg" ,
       size: 3,
-      desc: "Crew Neck Base Ball outfit..",
+      desc: "Crew Neck Base Ball outfit.",
       price: "R2500",
       button:"Buy now"
     },
@@ -71,7 +71,7 @@ products.forEach((product) => {
           <h5 class="card-title">R&G</h5>
           <p class="card-text">${product.desc}</p>
           <p class="card-text">${product.price}</p>
-          <a href="#" class="btn btn-primary">Buy Now</a>
+          <a href="/html/cart.html" class="btn btn-product">Buy Now</a>
           </div>
       </div>
   </div>`
