@@ -440,7 +440,7 @@ form {
   position: absolute;
   display: block;
   height: 4px;
-  width: 21%;
+  width: 18%;
   position: relative;
 }
 
@@ -451,7 +451,7 @@ form {
   position: absolute;
   display: block;
   height: 4px;
-  width: 39%;
+  width: 31%;
   position: relative;
 }
 
@@ -567,9 +567,9 @@ form {
 
 /* Modal Admin Styling */
 
-.modal-body{
+/* .modal-body{
   
-}
+} */
 
 .Admin-heading{
   font-weight: 900;
