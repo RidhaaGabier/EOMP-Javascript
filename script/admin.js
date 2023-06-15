@@ -103,9 +103,9 @@ admin.forEach((product) => {
         <td>${product.size}</td>
         <td>${product.price}</td>
         <td>
-        <div class="Admin-buttons">
-          <button>Edit</button>
-          <button>Delete</button>
+        <div class="bt buttons">
+          <button class="Admin-buttons" data-bs-toggle="modal" data-bs-target="#editModal">Edit</button>
+          <button class="Admin-buttons">Delete</button>
         </div></td>
       </tr>
     `

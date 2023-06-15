@@ -108,11 +108,15 @@ nav {
     font-size: 12px;
     font-weight: 900;
     margin: 0px;
-    margin-bottom: 25px;
-    color: #eb5e28;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+
   }
   .btn {
-    padding: 0px !important;
+  font-size: 11px !important;
+  letter-spacing: 0 !important;
+  margin-top: 4px !important;
   }
 
   .category-box h3{
@@ -436,7 +440,7 @@ form {
   position: absolute;
   display: block;
   height: 4px;
-  width: 17%;
+  width: 21%;
   position: relative;
 }
 
@@ -447,7 +451,7 @@ form {
   position: absolute;
   display: block;
   height: 4px;
-  width: 31%;
+  width: 39%;
   position: relative;
 }
 
@@ -545,3 +549,18 @@ form {
 
 
 /* Admin Css */
+
+.Admin-buttons{
+  box-shadow: 0 0 15px#FFFCF2 !important;
+  background-color: #eb5e28 !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white !important;
+  border: none;
+  border-radius: 14px;
+  padding: 3px;
+}
+
+.Admin-buttons:hover{
+  box-shadow: 4px 4px 10px #ccc5b9, -4px -4px 10px#CCC5B9 !important;
+}

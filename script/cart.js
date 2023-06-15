@@ -49,7 +49,7 @@ function removeAllItems() {
      item = [];
      displayItem.innerHTML = ""
      totalPrice();
-
+     localStorage.clear()
 }
 
 function getFromCart(index) {

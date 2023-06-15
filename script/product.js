@@ -3,89 +3,89 @@ let products = [
    
   {
     id: 1,
-   image: "https://i.postimg.cc/nrzH1kq4/model-card-1.jpg" ,
+   image: "https://i.postimg.cc/g02kcq0X/product-9.jpg" ,
     size:   3,
-    desc: "Crop-T/Denim Rip jeans outfit.",
+    desc: "Silk Loose Fitted Dress.",
     price: "R1600",
     button:"Buy now"
   },
   {
     id: 2,
-    image: "https://i.postimg.cc/Njv3sDLd/model-card-2.jpg" ,
+    image: "https://i.postimg.cc/y6PQcm6Y/product3.jpg" ,
     size:   3,
-    desc: "Crop-T/Denim Rip jeans outfit.",
+    desc: "LV Black Lounge Coat.",
     price: "R1800",
     button:"Buy now"
   },
   {
     id: 3,
-    image: "https://i.postimg.cc/9FgvT2xN/model-card4.jpg" ,
+    image: "https://i.postimg.cc/VNm0qCkm/product5.jpg" ,
     size:  3,
-    desc: "Crew Neck/Denim jeans outfit.",
+    desc: "Burberry Silk Cropped Dress.",
     price: "R4500",
     button:"Buy now"
   },
   { 
     id: 4,
-    image: "https://i.postimg.cc/Zqqgq5zq/soft-boy-3.jpg" ,
+    image: "https://i.postimg.cc/MGM8Hs1L/feature-image.jpg" ,
     size: 3,
-    desc: "Crew Neck Base Ball outfit..",
+    desc: "LV Designer Leather Dress",
     price: "R2500",
     button:"Buy now"
   },
   { 
     id: 5,
-    image: "https://i.postimg.cc/x87j64Gv/soft-boy.jpg" ,
+    image: "https://i.postimg.cc/x10zw4WL/product.jpg" ,
     size: 3,
-    desc: "White Burberry's-T/Denim jeans outfit.",
+    desc: "LV Brown Leather Jacket.",
     price: "R2000",
     button:"Buy now"
   },
   { 
     id: 6,
-    image: "https://i.postimg.cc/j5c4nz60/soft-boy-2.jpg" ,
+    image: "https://i.postimg.cc/Kvr2Kq4q/product4.jpg" ,
     size: 3,
-    desc: "Cardigan Jersey/Denim jeans outfit.",
+    desc: "Off-White Silk Dress.",
     price: "R2500",
     button:"Buy now"
   },
   {
     id: 7,
-    image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
+    image: "https://i.postimg.cc/mg2SYk2x/product2.jpg" ,
     size: 3,
-    desc: "LV Crew Neck/Corduroy Pants outfit.",
+    desc: "LV Silk Ocean green Dress.",
     price: "R7500",
     button:"Buy now"
   },
   {
     id: 8,
-      image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
+      image: "https://i.postimg.cc/CKpxyBZX/product6.jpg" ,
       size: 3,
-      desc: "LV Crew Neck/Corduroy Pants outfit.",
+      desc: "LV Royal Blue Silk Dress.",
       price: "R7500",
       button:"Buy now"
     },
     {
       id: 9,
-      image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
+      image: "https://i.postimg.cc/DwkShYHx/shiny.jpg" ,
       size:  4,
-      desc: "Nike Pastel Sneaker.",
+      desc: "Midnight Silk High Heels.",
       price: "R6500",
       button:"Buy now"
     },
     {
       id: 10,
-      image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
+      image: "https://i.postimg.cc/NFnpLwm9/puddy.jpg" ,
       size:  4,
-      desc: "Nike Pastel Sneaker.",
+      desc: "Puffy Suede High Heels.",
       price: "R6500",
       button:"Buy now"
     },
     {
       id: 11,
-      image: "https://i.postimg.cc/c1bmBJSY/shoe5.jpg" ,
+      image: "https://i.postimg.cc/kgTzPLhS/3232010800-6-1-1.jpg" ,
       size:  4,
-      desc: "Nike Pastel Sneaker.",
+      desc: "Open Foot High Heels.",
       price: "R6500",
       button:"Buy now"
     },
