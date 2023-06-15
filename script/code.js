@@ -78,16 +78,7 @@ let products = [
       desc: "LV Crew Neck/Corduroy Pants outfit.",
       price: "R7500",
       button:"Buy now"
-    },  
-      id : "item-eight",
-        image: "https://i.postimg.cc/853XxbDM/asian.jpg" ,
-        size: 3,
-        desc: "LV Crew Neck Art Dress Outfit.",
-        price: "R7500",
-        button:"Buy now"
-      },
-      
-  
+    },     
   ];
 
 let disProducts = document.querySelector(".products .row");
