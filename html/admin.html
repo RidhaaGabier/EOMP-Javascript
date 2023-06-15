@@ -2,13 +2,14 @@
 <html lang="en">
 
 
-    <title>R&G Admin Page</title>
+<title>R&G Admin Page</title>
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles/style.css">
+  <link rel="icon" href="https://i.postimg.cc/JzyZR21g/New-John.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -41,11 +42,12 @@
           <!-- Button trigger modal -->
 
           <li>
-            <button type="button" style="background-color: transparent; border: none;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" style="background-color: transparent; border: none;" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
               <i class="fa-solid fa-cart-shopping" style="filter: invert(100%);"></i>
             </button>
           </li>
-          
+
         </ul>
       </div>
     </div>
@@ -56,12 +58,12 @@
       <table class="table">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Images</th>
-            <th scope="col">Description</th>
-            <th scope="col">Size</th>
-            <th scope="col">Price</th>
-            <th scope="col">Edit/Delete</th>
+            <th class="Admin-heading" scope="col">#</th>
+            <th class="Admin-heading" scope="col">Images</th>
+            <th class="Admin-heading" scope="col">Description</th>
+            <th class="Admin-heading" scope="col">Size</th>
+            <th class="Admin-heading" scope="col">Price</th>
+            <th class="Admin-heading" scope="col">Edit/Delete</th>
           </tr>
         </thead>
         <tbody id="displayAdmin">
@@ -70,7 +72,7 @@
     </div>
 
     <!-- Edit button -->
-     
+
     <div class="modal" tabindex="-1" id="editModal">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -78,42 +80,37 @@
             <h5 class="modal-title">Edit Products</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            
-            <form action="">
+          <div class="modal-body" style="background-color: #EDEADE; position: relative; display: columns" >
+
+            <form>
 
               <ul>
                 <li>
                   <label for="name">ID:</label>
-                  <p id="id-edit"></p>
+                  <input readonly id="id-edit"></input>
                 </li>
                 <li>
-                  <label for="name">Product:</label>
-                  <input type="text" id="product-edit" name="product" />
+                  <label for="name">Image:</label>
+                  <input type="text" id="image-edit" name="images" />
                 </li>
                 <li>
-                  <li>
-                    <label for="name">Images:</label>
-                    <input type="text" id="image-edit" name="images" />
-                  </li>
-                  <li>
-                    <li>
-                      <label for="name">Description:</label>
-                      <input type="text" id="description-edit" name="description" />
-                    </li>
-                    <li>
-                      <li>
-                        <label for="name">Price:</label>
-                        <input type="text" id="price-edit" name="price" />
-                      </li>
-                      <li>
+                <li>
+                  <label for="name">About:</label>
+                  <input type="text" id="description-edit" name="description" />
+                </li>
+                <li>
+                <li>
+                  <label for="name">Price:</label>
+                  <input type="text" id="price-edit" name="price" />
+                </li>
+                <li>
 
             </form>
 
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" onclick="saveProduct()" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
@@ -129,7 +126,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <!-- Content --> 
+            <!-- Content -->
 
             <!-- show item in cart -->
             <div id="display-item">

@@ -1,9 +1,9 @@
 
-let products = [
+let products = JSON.parse(localStorage.getItem('products')) || [
    
   {
     id: 1,
-   image: "https://i.postimg.cc/g02kcq0X/product-9.jpg" ,
+    image: "https://i.postimg.cc/g02kcq0X/product-9.jpg" ,
     size:   3,
     desc: "Silk Loose Fitted Dress.",
     price: "R1600",
@@ -83,7 +83,7 @@ let products = [
     },
     {
       id: 11,
-      image: "https://i.postimg.cc/kgTzPLhS/3232010800-6-1-1.jpg" ,
+      image: "https://i.postimg.cc/qMhGjR9W/open-shoe.jpg" ,
       size:  4,
       desc: "Open Foot High Heels.",
       price: "R6500",

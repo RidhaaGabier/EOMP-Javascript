@@ -564,3 +564,14 @@ form {
 .Admin-buttons:hover{
   box-shadow: 4px 4px 10px #ccc5b9, -4px -4px 10px#CCC5B9 !important;
 }
+
+/* Modal Admin Styling */
+
+.modal-body{
+  
+}
+
+.Admin-heading{
+  font-weight: 900;
+  
+}
