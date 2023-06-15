@@ -6,9 +6,9 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  /* color: whitesmoke; */
   font-family: "Poppins", sans-serif;
 }
+
 
 h1 {
   font-size: 50px;
@@ -52,7 +52,6 @@ body {
 }
 
 nav {
-   /* height: 70px; */
   background: #333333;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   padding: 25px !important;
@@ -74,12 +73,7 @@ nav {
   font-weight: 500;
   color: whitesmoke;
   transition: 0.5s ease;
-  /* color: whitesmoke;
-display: block;
-border-radius: 25px;
-margin: 0 10px;
-padding: 10px 25px; */
-}
+
 
 #navbar li a:hover,
 #navbar li a.active {
@@ -112,6 +106,30 @@ padding: 10px 25px; */
   flex-direction: column;
   letter-spacing: 10px;
 }
+
+@media screen and ( max-width: 300px){
+   .resp-text{
+    font-size: 12px;
+    font-weight: 900;
+    margin: 0px;
+    margin-bottom: 25px;
+  } 
+   .btn{
+    padding: 0px !important;
+  
+  } 
+
+  #hero{
+    padding: 45%;
+  }
+  
+  html,body {
+    overflow-x: hidden;
+    }
+
+}
+
+
 #hero h4 {
   padding-bottom: 1rem;
 }
@@ -130,6 +148,11 @@ padding: 10px 25px; */
 
 #hero button:hover {
   box-shadow: -4px -4px 10px #ccc5b9, 4px 4px 10px#FFFCF2;
+}
+
+/* feature button */
+.feature-btn{
+  text-decoration: none;
 }
 
 /* category */
@@ -303,7 +326,6 @@ form {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  /* border: 3px solid black; */
  }
 
 .hijab {
@@ -351,6 +373,17 @@ form {
   box-shadow: 4px 4px 10px #CCC5B9, -4px -4px 10px#CCC5B9 !important;
 
 }
+
+@media screen and ( max-width: 300px){
+  .carousel{
+    width: 100% !important;
+    height:100%;
+  }
+  .text-caro{
+    font-size: 18px;
+  }
+}
+
  /* About Page */
  .heading{
   width: 90%;
@@ -374,6 +407,29 @@ form {
   display: block;
   height: 4px;
   width: 100%;
+ }
+  
+ .line-head::after{
+  content: "";
+  margin:0 auto;
+  background-color: #333333;
+  position: absolute;
+  display: block;
+  height: 4px;
+  width: 17%;
+  position: relative;
+ }
+
+
+ .line-heading::after{
+  content: "";
+  margin:0 auto;
+  background-color: #333333;
+  position: absolute;
+  display: block;
+  height: 4px;
+  width: 31%;
+  position: relative;
  }
 
  .container-about{
@@ -429,6 +485,12 @@ form {
     padding: 0px 20px;
   }
 
+  .line-head::after{
+    width: 70%;
+  }
+  .line-heading::after{
+    width: 80%;
+  }
   .heading-h1{
     font-size: 20px;
   }
