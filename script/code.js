@@ -3,65 +3,65 @@ let products = [
    
     {
       id : "item-one",
-     image: "https://i.postimg.cc/nrzH1kq4/model-card-1.jpg" ,
+     image: "https://i.postimg.cc/C51PLXPt/feature-1.jpg" ,
       size:   3,
-      desc: "Crop-T/Denim Rip jeans outfit.",
+      desc: "Leather Biker Jacket Outfit.",
       price: "R1600",
       button:"Buy now"
     },
     {
       id : "item-two",
-      image: "https://i.postimg.cc/Njv3sDLd/model-card-2.jpg" ,
+      image: "https://i.postimg.cc/PxcZY7f0/wall-back.jpg" ,
       size:   3,
-      desc: "Crop-T/Denim Rip jeans outfit.",
+      desc: "Silk Button Dress Outfit.",
       price: "R1800",
       button:"Buy now"
     },
     {
       id : "item-three",
-      image: "https://i.postimg.cc/9FgvT2xN/model-card4.jpg" ,
+      image: "https://i.postimg.cc/6pLVCfmz/product-8.jpg" ,
       size:  3,
-      desc: "Crew Neck/Denim jeans outfit.",
+      desc: "Pattern Art Dress Outfit.",
       price: "R4500",
       button:"Buy now"
     },
     { 
       id : "item-four",
-      image: "https://i.postimg.cc/Zqqgq5zq/soft-boy-3.jpg" ,
+      image: "https://i.postimg.cc/8PGjLggQ/product-10.jpg" ,
       size: 3,
-      desc: "Crew Neck Base Ball outfit.",
+      desc: "Designer Leather Dress Outfit.",
       price: "R2500",
       button:"Buy now"
     },
     { 
       id : "item-five",
-      image: "https://i.postimg.cc/x87j64Gv/soft-boy.jpg" ,
+      image: "https://i.postimg.cc/2S8yXd50/feature.jpg" ,
       size: 3,
-      desc: "White Burberry's-T/Denim jeans outfit.",
+      desc: "Black Leather Skirt Outfit.",
       price: "R2000",
       button:"Buy now"
     },
     { 
       id : "item-six",
-      image: "https://i.postimg.cc/j5c4nz60/soft-boy-2.jpg" ,
+      image: "https://i.postimg.cc/sgkFZyb5/bomber.jpg" ,
       size: 3,
-      desc: "Cardigan Jersey/Denim jeans outfit.",
+      desc: "Bomber Puffer Jacket Outfit.",
       price: "R2500",
       button:"Buy now"
     },
     {
       id : "item-seven",
-      image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
+      image: "https://i.postimg.cc/Bv4gzVKd/ohter.jpg" ,
       size: 3,
-      desc: "LV Crew Neck/Corduroy Pants outfit.",
+      desc: "LV Cro Top Jumper Outfit.",
       price: "R7500",
       button:"Buy now"
     },
     {
       id : "item-eight",
-        image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
+        image: "https://i.postimg.cc/853XxbDM/asian.jpg" ,
         size: 3,
-        desc: "LV Crew Neck/Corduroy Pants outfit.",
+        desc: "LV Crew Neck Art Dress Outfit.",
         price: "R7500",
         button:"Buy now"
       },

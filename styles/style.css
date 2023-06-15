@@ -150,6 +150,11 @@ nav {
   box-shadow: -4px -4px 10px #ccc5b9, 4px 4px 10px#FFFCF2;
 }
 
+/* feature button */
+.feature-btn{
+  text-decoration: none;
+}
+
 /* category */
 
 .category-title {
@@ -403,6 +408,29 @@ form {
   height: 4px;
   width: 100%;
  }
+  
+ .line-head::after{
+  content: "";
+  margin:0 auto;
+  background-color: #333333;
+  position: absolute;
+  display: block;
+  height: 4px;
+  width: 17%;
+  position: relative;
+ }
+
+
+ .line-heading::after{
+  content: "";
+  margin:0 auto;
+  background-color: #333333;
+  position: absolute;
+  display: block;
+  height: 4px;
+  width: 31%;
+  position: relative;
+ }
 
  .container-about{
  width: 90%;
@@ -457,6 +485,12 @@ form {
     padding: 0px 20px;
   }
 
+  .line-head::after{
+    width: 70%;
+  }
+  .line-heading::after{
+    width: 80%;
+  }
   .heading-h1{
     font-size: 20px;
   }
