@@ -74,7 +74,7 @@ nav {
   color: whitesmoke;
   transition: 0.5s ease;
 
-
+}
 #navbar li a:hover,
 #navbar li a.active {
   color: white;
@@ -240,7 +240,7 @@ nav {
   margin: 0;
   padding: 0;
 }
-.bttn {
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,8 +299,9 @@ form {
  .btn-contact{
   box-shadow: 4px 4px 10px #CCC5B9, -4px -4px 10px#FFFCF2 !important;
   padding: 3px;
-  background-color: #EB5E28 !important;} 
-/* class="card p-5" */
+  background-color: #EB5E28 !important;
+} 
+
 .submit-btn{
     width: 100% !important;
     position: relative;
@@ -379,7 +380,7 @@ form {
     width: 100% !important;
     height:100%;
   }
-  .text-caro{
+  .text-carousel{
     font-size: 18px;
   }
 }
