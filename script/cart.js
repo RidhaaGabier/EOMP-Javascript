@@ -1,28 +1,31 @@
 let item = JSON.parse(localStorage.getItem("clothes")) || [];
 let displayItem = document.getElementById("display-item");
+let cart = JSON.parse(localStorage.getItem("clothes")) || [];
 
 
 function cartDisplay() {
-    item.forEach((item, index) => {
-        let showItem = document.createElement("div");
-         
-        //  change style
+  item = JSON.parse(localStorage.getItem("clothes")) || [];
+  displayItem.innerHTML = ''
+  item.forEach((item, index) => {
+      let showItem = document.createElement("div");
+        
+      //  change style
 
-        // showItem.innerHTML = '';
-        showItem.innerHTML = `
-        <div class="m-2 border border-black blue-bg">
-        <div class="p-2 d-flex align-items-center justify-content-between">
-        <img src="${item.image}" alt="${item.desc}" id="book-cover" style="width:100px;">
-        <div class="me-auto p-3">
-        <h5>${item.desc}</h5>
-        <p>${item.price}</p>
-        </div>
-        <button onclick="cashRemove(${index})" id="remove" class="rem-btn">x</button>
-        </div>
-        </div>`
+      // showItem.innerHTML = '';
+      showItem.innerHTML = `
+      <div class="m-2 border border-black blue-bg">
+      <div class="p-2 d-flex align-items-center justify-content-between">
+      <img src="${item.image}" alt="${item.desc}" id="book-cover" style="width:100px;">
+      <div class="me-auto p-3">
+      <h5>${item.desc}</h5>
+      <p>${item.price}</p>
+      </div>
+      <button onclick="getFromCart(${index})" id="remove" class="rem-btn">x</button>
+      </div>
+      </div>`
 
-        displayItem.appendChild(showItem);
-    });
+      displayItem.appendChild(showItem);
+  });
 
     totalPrice();
 }
@@ -49,15 +52,24 @@ function removeAllItems() {
 
 }
 
-// To remove item from list (double click)
+function getFromCart(index) {
+  cart.splice(index, 1)[0];
+  loadCart();
+  cartDisplay()
+}
 
-// displayInfo.addEventListener("click", function (e) {
-//     results = e.target
-//     displayInfo.removeChild(results);
-//     info.splice(info.indexOf(results.textContent), 1)
-//     localStorage.setItem('data', JSON.stringify(info))
-//   //   toDoContainer.removeChild(displayInfo);
-//   });
-//  else {
-//   displayInfo.textContent = "Please enter your daily task's.";
-// }
+function addToCart(productID) {
+  const product = products.find((product) => product.id === productID);
+  if (product && product.size > 0) {
+    product.size--;
+    cart.push(product);
+    loadCart();
+    cartDisplay();
+  }
+}
+
+
+// the actual cart function - shows in a modal on the html side, use the add and remove functions in here
+function loadCart() {
+  localStorage.setItem("clothes", JSON.stringify(cart));
+}

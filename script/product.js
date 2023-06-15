@@ -118,26 +118,8 @@ disProducts.innerHTML += `
 // cart functions
 
 // local storage stuff - first initializing the cart as either an empty array or an array of books as retrieved from local storage
-let cart = JSON.parse(localStorage.getItem("clothes")) || [];
 loadCart();
 
 // allows the book to be added to cart if the quantity is more than 0, the quantity will be decreased by one if it's added to the cart
-function addToCart(productID) {
-  const product = products.find((product) => product.id === productID);
-  if (product && product.size > 0) {
-    product.size--;
-    cart.push(product);
-    loadCart();
-  }
-}
 
-// removes an item from cart and increases it's quantity in stock by one
-function getFromCart(index) {
-  cart.splice(index, 1)[0];
-  loadCart();
-}
 
-// the actual cart function - shows in a modal on the html side, use the add and remove functions in here
-function loadCart() {
-  localStorage.setItem("clothes", JSON.stringify(cart));
-}
