@@ -73,9 +73,9 @@ let products = [
     },
     {
       id : 8,
-      image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
+      image: "https://i.postimg.cc/rFnBhVf4/4437281800-1-1-1.jpg" ,
       size: 3,
-      desc: "LV Crew Neck/Corduroy Pants outfit.",
+      desc: "LV Black Over Coat Outfit.",
       price: "R7500",
       button:"Buy now"
     },     

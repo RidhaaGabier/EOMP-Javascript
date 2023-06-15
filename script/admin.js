@@ -90,23 +90,26 @@ let admin = [
     },
 ]
 
-let adminProd = document.querySelector("#displayAdmin");
-adminProd.innerHTML = ""; 
+let adminItem = document.querySelector("#displayAdmin");
+adminItem.innerHTML = ""; 
 admin.forEach((product) => {
-    adminProd.innerHTML += `
+    adminItem.innerHTML += `
     <tr>
         <th scope="row">${product.id}</th>
         <td>
-        <img src="${product.image}class="card-img-top" style="padding: 0.6rem;" height="250">
+        <img src="${product.image}class="card-img-top" style="padding: 1rem;" height="220">
         </td>
         <td>${product.desc}</td>
         <td>${product.size}</td>
         <td>${product.price}</td>
         <td>
-        <div class="buttons">
+        <div class="Admin-buttons">
           <button>Edit</button>
           <button>Delete</button>
         </div></td>
       </tr>
     `
 });
+
+
+         
