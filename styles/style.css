@@ -52,7 +52,6 @@ body {
 }
 
 nav {
-   /* height: 70px; */
   background: #333333;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   padding: 25px !important;
@@ -75,7 +74,6 @@ nav {
   color: whitesmoke;
   transition: 0.5s ease;
 
-}
 
 #navbar li a:hover,
 #navbar li a.active {
@@ -328,7 +326,6 @@ form {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  /* border: 3px solid black; */
  }
 
 .hijab {
@@ -376,6 +373,17 @@ form {
   box-shadow: 4px 4px 10px #CCC5B9, -4px -4px 10px#CCC5B9 !important;
 
 }
+
+@media screen and ( max-width: 300px){
+  .carousel{
+    width: 100% !important;
+    height:100%;
+  }
+  .text-caro{
+    font-size: 18px;
+  }
+}
+
  /* About Page */
  .heading{
   width: 90%;
