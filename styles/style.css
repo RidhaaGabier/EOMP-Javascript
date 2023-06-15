@@ -6,9 +6,9 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  /* color: whitesmoke; */
   font-family: "Poppins", sans-serif;
 }
+
 
 h1 {
   font-size: 50px;
@@ -74,11 +74,7 @@ nav {
   font-weight: 500;
   color: whitesmoke;
   transition: 0.5s ease;
-  /* color: whitesmoke;
-display: block;
-border-radius: 25px;
-margin: 0 10px;
-padding: 10px 25px; */
+
 }
 
 #navbar li a:hover,
@@ -112,6 +108,30 @@ padding: 10px 25px; */
   flex-direction: column;
   letter-spacing: 10px;
 }
+
+@media screen and ( max-width: 300px){
+   .resp-text{
+    font-size: 12px;
+    font-weight: 900;
+    margin: 0px;
+    margin-bottom: 25px;
+  } 
+   .btn{
+    padding: 0px !important;
+  
+  } 
+
+  #hero{
+    padding: 45%;
+  }
+  
+  html,body {
+    overflow-x: hidden;
+    }
+
+}
+
+
 #hero h4 {
   padding-bottom: 1rem;
 }
