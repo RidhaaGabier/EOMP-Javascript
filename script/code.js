@@ -2,7 +2,7 @@
 let products = [
    
     {
-      id : "item-one",
+      id : 1,
      image: "https://i.postimg.cc/nrzH1kq4/model-card-1.jpg" ,
       size:   3,
       desc: "Crop-T/Denim Rip jeans outfit.",
@@ -10,7 +10,7 @@ let products = [
       button:"Buy now"
     },
     {
-      id : "item-two",
+      id : 2,
       image: "https://i.postimg.cc/Njv3sDLd/model-card-2.jpg" ,
       size:   3,
       desc: "Crop-T/Denim Rip jeans outfit.",
@@ -18,7 +18,7 @@ let products = [
       button:"Buy now"
     },
     {
-      id : "item-three",
+      id : 3,
       image: "https://i.postimg.cc/9FgvT2xN/model-card4.jpg" ,
       size:  3,
       desc: "Crew Neck/Denim jeans outfit.",
@@ -26,7 +26,7 @@ let products = [
       button:"Buy now"
     },
     { 
-      id : "item-four",
+      id : 4,
       image: "https://i.postimg.cc/Zqqgq5zq/soft-boy-3.jpg" ,
       size: 3,
       desc: "Crew Neck Base Ball outfit.",
@@ -34,7 +34,7 @@ let products = [
       button:"Buy now"
     },
     { 
-      id : "item-five",
+      id : 5,
       image: "https://i.postimg.cc/x87j64Gv/soft-boy.jpg" ,
       size: 3,
       desc: "White Burberry's-T/Denim jeans outfit.",
@@ -42,7 +42,7 @@ let products = [
       button:"Buy now"
     },
     { 
-      id : "item-six",
+      id : 6,
       image: "https://i.postimg.cc/j5c4nz60/soft-boy-2.jpg" ,
       size: 3,
       desc: "Cardigan Jersey/Denim jeans outfit.",
@@ -50,7 +50,7 @@ let products = [
       button:"Buy now"
     },
     {
-      id : "item-seven",
+      id : 7,
       image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
       size: 3,
       desc: "LV Crew Neck/Corduroy Pants outfit.",
@@ -58,15 +58,13 @@ let products = [
       button:"Buy now"
     },
     {
-      id : "item-eight",
-        image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
-        size: 3,
-        desc: "LV Crew Neck/Corduroy Pants outfit.",
-        price: "R7500",
-        button:"Buy now"
-      },
-      
-  
+      id : 8,
+      image: "https://i.postimg.cc/90mfn9qp/model-male2.jpg" ,
+      size: 3,
+      desc: "LV Crew Neck/Corduroy Pants outfit.",
+      price: "R7500",
+      button:"Buy now"
+    },  
   ];
 
 let disProducts = document.querySelector(".products .row");
