@@ -89,7 +89,7 @@ nav {
 /* Landing Page */
 #hero {
   background-image: url(https://i.postimg.cc/4NZ54SSy/fashion-girl-model-wallpaper-59926-61719-hd-wallpapers.jpg);
-  height: 90vh;
+  height: 97vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: right 0;
@@ -545,6 +545,21 @@ form {
   .about-content .read-more {
     font-size: 15px;
   }
+
+  /* .container{
+    justify-content: center !important;
+    display: flex !important;
+    position: relative !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    overflow: hidden !important;
+    font-size: 4px;
+    align-items: center;
+  }
+
+.table-data{
+  
+} */
 }
 
 
@@ -571,7 +586,64 @@ form {
   
 } */
 
-.Admin-heading{
+/* .Admin-heading{
   font-weight: 900;
   
+} */
+
+.app{
+  width: 300px;
+  border: 5px solid ;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  height: 800PX;
+  margin: 100px;
+  padding: 100px;
+  overflow-y: scroll;
+}
+
+/* Takes scroll bar away */
+.app::-webkit-scrollbar{
+  width: 0px!important;
+}
+
+#addNew{
+  background-color: #333333;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.fa-plus{
+  padding: 5px;
+}
+  
+#tasks{
+  display: grid;
+  gap: 50px;
+}
+
+#tasks div {
+
+border-radius: 50px;
+border: 3px solid black ;
+padding: 20px;
+display: grid;
+gap: 20px;
+}
+.options{
+  justify-self: center;
+  display: flex;
+  gap:40px ;
+  cursor: pointer;
+}
+
+#msg{
+  color: red;
 }

@@ -3,9 +3,9 @@ let products = JSON.parse(localStorage.getItem('products')) || [
    
   {
     id: 1,
-    image: "https://i.postimg.cc/g02kcq0X/product-9.jpg" ,
+    image: "https://i.postimg.cc/SNj47Pvx/7901323800-1-1-1.jpg" ,
     size:   3,
-    desc: "Silk Loose Fitted Dress.",
+    desc: "Silk Fitted Dress.",
     price: "R1600",
     button:"Buy now"
   },
@@ -19,17 +19,17 @@ let products = JSON.parse(localStorage.getItem('products')) || [
   },
   {
     id: 3,
-    image: "https://i.postimg.cc/VNm0qCkm/product5.jpg" ,
+    image: "https://i.postimg.cc/vZHVzGd6/5427533800-1-1-1.jpg" ,
     size:  3,
-    desc: "Burberry Silk Cropped Dress.",
+    desc: "Burberry Leather Fitted Pants.",
     price: "R4500",
     button:"Buy now"
   },
   { 
     id: 4,
-    image: "https://i.postimg.cc/MGM8Hs1L/feature-image.jpg" ,
+    image: "https://i.postimg.cc/wv0KD55N/product-8.jpg" ,
     size: 3,
-    desc: "LV Designer Leather Dress",
+    desc: "LV Designer Lounge Coat",
     price: "R2500",
     button:"Buy now"
   },
@@ -51,9 +51,9 @@ let products = JSON.parse(localStorage.getItem('products')) || [
   },
   {
     id: 7,
-    image: "https://i.postimg.cc/mg2SYk2x/product2.jpg" ,
+    image: "https://i.postimg.cc/90M6b41n/4688209250-1-1-1.jpg" ,
     size: 3,
-    desc: "LV Silk Ocean green Dress.",
+    desc: "LV Silk Cardigan .",
     price: "R7500",
     button:"Buy now"
   },
@@ -121,5 +121,4 @@ disProducts.innerHTML += `
 loadCart();
 
 // allows the book to be added to cart if the quantity is more than 0, the quantity will be decreased by one if it's added to the cart
-
 
