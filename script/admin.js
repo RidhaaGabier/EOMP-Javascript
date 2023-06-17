@@ -158,7 +158,7 @@ let numberInput = document.getElementById('numberInput');
 let textarea = document.getElementById('textarea');
 let msg = document.getElementById('msg');
 let tasks = document.getElementById('tasks');
-let add = document.getElementById("add");
+
 
 
 form.addEventListener('submit', (e)=>{
@@ -175,7 +175,7 @@ let formValdation = ()=> {
     console.log('Correct')
     msg.innerHTML = "";
     acceptData();
-    add.setAttribute("data-bs-dismiss","modal")
+  
   }
 }
 
@@ -200,18 +200,33 @@ tasks.innerHTML += `
         <span class="fw-bold">${data.number}</span>
         <span class="fw-bold">${data.description}</span>
         <span class="options">
-          <i class="fa-solid fa-pen-to-square"></i>
-          <i class="fa-sharp fa-solid fa-trash"></i>
+          <i onClick = "editTask(this)" data-bs-toggle="modal" data-bs-target="#form" class="fa-solid fa-pen-to-square"></i>
+          <i onClick ="deleteTask(this)" class="fa-sharp fa-solid fa-trash"></i>
         </span>
   </div>
 `;
 
 resetForm();
 }
+
+let editTask = (e)=>{
+let selectedTask = e.parentElement.parentElement; 
+
+textInput.value =selectedTask.children[0].innerHTML
+imageInput.value=selectedTask.children[1].innerHTML
+numberInput.value=selectedTask.children[2].innerHTML
+textarea.value =selectedTask.children[3].innerHTML
+selectedTask.remove();
+}
+
+// Allow to delete products jump from parent options to main parent div
+let deleteTask = (e) => {
+e.parentElement.parentElement.remove();
+}
 //  clears modal form ater submition
 let resetForm =() => {
   textInput.value ="";
   imageInput.value="";
   numberInput.value="";
-  descriptionInput.value="";
+  textarea.value ="";
 }
