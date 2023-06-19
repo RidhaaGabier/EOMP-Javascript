@@ -97,7 +97,7 @@ products.forEach((product) => {
 disProducts.innerHTML += `
 <div class="col-12 col-sm-6 col-md-4 col-lg-${product.size} my-4">
     <div class="card">
-        <img src=${product.image} class="card-img-top" style="padding: 0.6rem;" height="450" alt="...">
+        <img src=${product.image} class="card-img-top" style="padding: 0.6rem;" height="450">
         <div class="card-body">
         <h5 class="card-title">R&G</h5>
         <p class="card-text">${product.desc}</p>
@@ -110,8 +110,6 @@ disProducts.innerHTML += `
 
 
 
-
-
 // Data for cart 
 
 
@@ -121,4 +119,8 @@ disProducts.innerHTML += `
 loadCart();
 
 // allows the book to be added to cart if the quantity is more than 0, the quantity will be decreased by one if it's added to the cart
+
+
+
+// Filter
 

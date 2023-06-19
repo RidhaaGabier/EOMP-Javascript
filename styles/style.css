@@ -359,7 +359,8 @@ form {
   justify-content: center;
   align-items: center;
   background-color: #1e1e1e;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1.4rem;
 }
 
 #contactPage {
@@ -378,8 +379,8 @@ form {
 .submitting {
   background-color: #eb5e28 !important;
   width: 100% !important;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
   color: white !important;
 }
 .submitting:hover {
@@ -388,6 +389,14 @@ form {
 
 /* ProductPage */
 .btn-product {
+  box-shadow: 0 0 15px#FFFCF2 !important;
+  background-color: #eb5e28 !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white !important;
+}
+
+.btn-primary{
   box-shadow: 0 0 15px#FFFCF2 !important;
   background-color: #eb5e28 !important;
   margin-top: 2rem;
@@ -403,8 +412,20 @@ form {
     width: 100% !important;
     height: 100%;
   }
+  .d-block{
+    width: 100% !important;
+  }
   .text-carousel {
     font-size: 18px;
+  }
+  .heading-admin{
+    width: 100%;
+    font-size: 30px;                               
+    padding: 0 !important;
+    padding-left: 28px !important;
+  }
+  .instructions{
+    font-size: 16px;
   }
 }
 
@@ -525,6 +546,8 @@ form {
 
   .container {
     padding: 0px;
+    width: min(900px, 100px -3rem);
+    margin-inline: auto;
   }
 
   .about {
@@ -546,26 +569,45 @@ form {
     font-size: 15px;
   }
 
-  /* .container{
-    justify-content: center !important;
+
+  .table thead{
+    display: none;
+   }
+   .table, .yable tbody, .table tr, .yable td{
+     display: block;
+     width: 100%;
+     font-size: 8px;
+   }
+   .table tr{
+    margin: 10px;
+   }
+   .table tbody tr td{
+    text-align: right;
+    padding-right: 100%;
+    position: relative;
+   }
+
+      /* .container{ */
+    /* justify-content: center !important;
     display: flex !important;
     position: relative !important;
-    padding: 0px !important;
+    padding: 0 10% !important;
     margin: 0px !important;
     overflow: hidden !important;
-    font-size: 4px;
-    align-items: center;
-  }
-
-.table-data{
-  
-} */
+    font-size: 4px;}
+   */
+   
 }
+
+ 
+   
+   
+  
 
 
 /* Admin Css */
 
-.Admin-buttons{
+/* .Admin-buttons{
   box-shadow: 0 0 15px#FFFCF2 !important;
   background-color: #eb5e28 !important;
   margin-top: 2rem;
@@ -581,11 +623,11 @@ form {
 }
 
 
-#body-admin{
+    #body-admin{
   justify-content: center;
   display: flex;
-}
-.app{
+  }  
+   .app{
   width: 300px;
   border: 5px solid ;
   border-radius: 10px;
@@ -595,10 +637,10 @@ form {
   margin: 100px;
   padding: 100px;
   overflow-y: scroll;
-}
+}   */
 
-/* Takes scroll bar away */
-.app::-webkit-scrollbar{
+ /* Takes scroll bar away   */
+  /* .app::-webkit-scrollbar{
   width: 0px!important;
 }
 
@@ -640,4 +682,68 @@ gap: 20px;
 
 #msg{
   color: red;
+}  */
+
+
+.list{
+  color: black;
+  background: #fff;
+  align-items: center;
+  max-width: 540px;
+  margin:50px auto 20px !important;
+  padding: 20px 20px 30px !important;
+  border: black solid;
+  padding: 50px !important;
+  background: #212529;
 }
+
+.heading-admin{
+color: whitesmoke;
+display:flex;
+align-items: center;
+margin-bottom: 30px !important;
+padding-left: 90px ;
+}
+
+#inputDescription, #inputResult, #inputPrice{
+  border: solid;
+  outline: none;
+  margin: 10px !important;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+  border-radius: 100px;
+  background-color:whitesmoke ;
+}
+
+.instructions{
+  color: whitesmoke !important;
+}
+
+#inputDescription{
+  padding: 40px;
+  border-radius: 10px;
+}
+
+ #submit, #display{
+  border: none;
+  outline: none;
+  color: whitesmoke !important;
+  font-size:16px ;
+  cursor: pointer;
+  border-radius: 40px !important;
+  margin: 10px !important;
+  padding:16px 50px;
+  background: #eb5e28;
+} 
+
+ul li{
+  font-size: 20px;
+  padding: 12px 30px 30px 5px;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  list-style: none;
+  
+} 
+

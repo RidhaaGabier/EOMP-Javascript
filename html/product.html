@@ -81,11 +81,49 @@
   <h2 class="text-caro" style="text-align: center;letter-spacing: 8px;margin: 2rem;">Check out our latest fits</h2>
    
 
+<!-- filter -->
+  <!-- <h2>Search Products</h2>
 
+  <section id="products">
+    <form action="" class="m-auto filter-form bg-black">
+      <div class="filter-form-price filter-form-div">
+        <label for="price-range">Price:</label>
+        <select name="price-range" class="m-auto" id="price-range" onchange="filterItems()">
+        <option value="any">Any</option>
+        <option value="5000">R5000</option>
+        <option value="3000">R3000</option>
+        <option value="2000">R2000</option>
+        </select>
+      </div>
 
+      <div class="filter-form-color filter-form-div">
+        <label for="">Base-colour</label>
+        <select name="base-color" class="m-auto" id="base-color" onchange="filterItems()">
+        <option value="any">Any</option>
+        <option value="black">Black</option>
+        <option value="white">White</option>
+        <option value="cream">Cream</option>
+        <option value="purple">Purple</option>
+        <option value="brown">Brown</option>
+        </select>
+      </div>
 
+      <div class="filter-form-shoes filter-form-div">
+        <label for="shoes">Shoes</label>
+        <select name="shoes" class="m-auto" id="shoes" onchange="filterItems()">
+        <option value="any">Any</option>
+        <option value="puffy">Puffy</option>
+        <option value="pointed">Pointed</option>
+        <option value="glass">Glass</option>
+      </select>
+      </div>
 
-  
+    </form>
+  </section> -->
+
+<!--End of filter -->
+
+<!-- Card section -->
   <section class="banner_section">
  
   <div class="container products">
@@ -102,7 +140,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Cart</h1>
+        <h1 class="modal-title fs-5" style="font-weight: 900;" id="exampleModalLabel">Cart</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -116,7 +154,7 @@
 
         <div id="total-amount"></div>
 
-        <button onclick="removeAllItems()">Purchase</button>
+        <button class="btn btn-product" onclick="removeAllItems()">Purchase</button>
         <!-- End of content -->
 
 
