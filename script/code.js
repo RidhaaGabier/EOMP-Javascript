@@ -86,14 +86,6 @@ products.forEach((product) => {
 
 
 
-//added button style and function
-//add delete function on both
-//admin page fix
-
-
-
-
-
 
 
 

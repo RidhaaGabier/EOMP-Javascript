@@ -529,6 +529,14 @@ form {
     padding: 0px 20px;
   }
 
+  #productList{
+   width: 100% !important;
+   padding-left: 20px !important;
+   padding-right: 20px !important;
+  }
+  .admin-images{
+    width: 250px;
+  }
   .line-head::after {
     width: 70%;
   }
@@ -569,181 +577,50 @@ form {
     font-size: 15px;
   }
 
-
-  .table thead{
-    display: none;
-   }
-   .table, .yable tbody, .table tr, .yable td{
-     display: block;
-     width: 100%;
-     font-size: 8px;
-   }
-   .table tr{
-    margin: 10px;
-   }
-   .table tbody tr td{
-    text-align: right;
-    padding-right: 100%;
-    position: relative;
-   }
-
-      /* .container{ */
-    /* justify-content: center !important;
-    display: flex !important;
-    position: relative !important;
-    padding: 0 10% !important;
-    margin: 0px !important;
-    overflow: hidden !important;
-    font-size: 4px;}
-   */
-   
 }
 
  
-   
-   
-  
-
-
-/* Admin Css */
-
-/* .Admin-buttons{
-  box-shadow: 0 0 15px#FFFCF2 !important;
-  background-color: #eb5e28 !important;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  color: white !important;
-  border: none;
-  border-radius: 14px;
-  padding: 3px;
-}
-
-.Admin-buttons:hover{
-  box-shadow: 4px 4px 10px #ccc5b9, -4px -4px 10px#CCC5B9 !important;
-}
-
-
-    #body-admin{
-  justify-content: center;
+/* Admin CSS */
+.container-admin{
   display: flex;
-  }  
-   .app{
-  width: 300px;
-  border: 5px solid ;
-  border-radius: 10px;
-  padding: 20px;
-  width: 30%;
-  height: 800PX;
-  margin: 100px;
-  padding: 100px;
-  overflow-y: scroll;
-}   */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #A9A9A9;
+
+}
+#productName,#productImage,#productPrice,#admin-submit{
+  width: 100% !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  color: #333333 !important;
+  cursor: pointer;
+  padding: 5px;
+  border: black solid 0.5px;
+}
+#productList{
+  margin-left: 10px;
+  margin-right: 10px;
+  background: whitesmoke;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  border: black solid ;
+  overflow-y: scroll !important;
+  height: 700px;
+}
+
 
  /* Takes scroll bar away   */
-  /* .app::-webkit-scrollbar{
-  width: 0px!important;
+   #productList::-webkit-scrollbar{
+  width: 0px!important;}
+
+#admin-submit{
+  color: #333333 !important;
+  border: black solid 0.5px;
 }
-
-#addNew{
-  background-color: #333333;
-  color: whitesmoke;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px 10px;
-  border-radius: 10px;
-  cursor: pointer;
-  
+#admin-submit:hover{
+box-shadow: 4px 4px 10px #ccc5b9, -4px -4px 10px#CCC5B9;
 }
-
-.fa-plus{
-  padding: 5px;
-}
-  
-#tasks{
-  display: grid;
-  gap: 50px;
-}
-
-#tasks div {
-
-border-radius: 50px;
-border: 3px solid black ;
-padding: 20px;
-display: grid;
-gap: 20px;
-}
-.options{
-  justify-self: center;
-  display: flex;
-  gap:40px ;
-  cursor: pointer;
-}
-
-#msg{
-  color: red;
-}  */
-
-
-.list{
-  color: black;
-  background: #fff;
-  align-items: center;
-  max-width: 540px;
-  margin:50px auto 20px !important;
-  padding: 20px 20px 30px !important;
-  border: black solid;
-  padding: 50px !important;
-  background: #212529;
-}
-
-.heading-admin{
-color: whitesmoke;
-display:flex;
-align-items: center;
-margin-bottom: 30px !important;
-padding-left: 90px ;
-}
-
-#inputDescription, #inputResult, #inputPrice{
-  border: solid;
-  outline: none;
-  margin: 10px !important;
-  background: transparent;
-  padding: 10px;
-  font-weight: 14px;
-  border-radius: 100px;
-  background-color:whitesmoke ;
-}
-
-.instructions{
-  color: whitesmoke !important;
-}
-
-#inputDescription{
-  padding: 40px;
-  border-radius: 10px;
-}
-
- #submit, #display{
-  border: none;
-  outline: none;
-  color: whitesmoke !important;
-  font-size:16px ;
-  cursor: pointer;
-  border-radius: 40px !important;
-  margin: 10px !important;
-  padding:16px 50px;
-  background: #eb5e28;
-} 
-
-ul li{
-  font-size: 20px;
-  padding: 12px 30px 30px 5px;
-  position: relative;
-  user-select: none;
-  cursor: pointer;
-  list-style: none;
-  
-} 
-
